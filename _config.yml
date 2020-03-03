@@ -1,7 +1,7 @@
-title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+title: nohatatall
+subtitle: Security enthusiast. DIY lover. IoT learner
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+  This is my personal blog, all shared information here are my own opinions. Nothing speak for my employer.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -11,25 +11,26 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
+    #- text: Gallery
+    #  url: /gallery
+    #- text: Shop
+    #  url : /shop
     - text: Contact Me
       url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
+    #- text: Styleguide
+    #  url: /styleguide
+    #- text: Get Started
+    #  url: /get-started
 
 # Edit these details
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hello, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author: Pham Trung Truc
+author_bio: Security enthusiast. DIY lover. IoT learner
+author_nick: nohatatall
+author_email: "pretty@trucph.am"
+author_location: Viet Nam
+author_website_url: "https://www.trucph.com"
 
 author_work_experiences:
             - company_name: Google
@@ -81,7 +82,7 @@ flickr_username: johndoe
 disqus_shortname: sujay-kundu
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+#wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
@@ -112,7 +113,7 @@ algolia:
 
 # pagination of posts
 paginate: 4
-per_page: 4
+per_page: 6
 paginate_path: "/blog/page/:num/"
 
 # minify
@@ -132,8 +133,8 @@ paginate_path: "/blog/page/:num/"
 #     category: '/category/:name/'
 
 # Shop
-collections:
- - products
+#collections:
+ #- products
 
 # Gallery
 defaults:
@@ -145,7 +146,7 @@ defaults:
 
 # Build settings
 
-theme: devlopr
+#theme: devlopr
 plugins:
   - jekyll-feed
   - jekyll-paginate
