@@ -1,7 +1,7 @@
 title: nohatatall
-subtitle: Security enthusiast. DIY lover. IoT learner
+subtitle: Appreneur by day. Bug bounty hunter by night. DIY, IoT lover in weekends
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal blog, all shared information here are my own opinions. Nothing speak for my employer.
+  This is my personal blog, all shared information here are my own opinions. Nothing spoken for my employer.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -26,11 +26,11 @@ urls:
 
 author_logo: profile.png
 author: Pham Trung Truc
-author_bio: Security enthusiast. DIY lover. IoT learner
+author_bio: I love to twinker everything I can put my hands on. I like the process of learning how things work. I love to break things apart and assemble them in a new order. I guess I can do a lot of things and I'm still struggling find my true passion.
 author_nick: nohatatall
-author_email: "pretty@trucph.am"
-author_location: Viet Nam
-author_website_url: "https://www.trucph.com"
+author_email: "nohatatall@gmail.com"
+author_location: 
+author_website_url: "https://www.nothatatall.com"
 
 author_work_experiences:
             - company_name: Google
@@ -67,16 +67,16 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: nohatatall
+github_username:  nohatatall
+facebook_username: atall.nohat
+linkedin_username: 
+behance_username: 
+instagram_username: 
+medium_username: 
+telegram_username: 
+dribbble_username: 
+flickr_username: 
 
 #for comments using disqus
 disqus_shortname: sujay-kundu
@@ -99,9 +99,9 @@ permalink: pretty
 google_analytics: UA-46783401-10
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
+show_author_work_experiences: false
+show_author_education_details: false
+show_author_project_details: false
 
 # algolia search
 algolia:
@@ -113,7 +113,7 @@ algolia:
 
 # pagination of posts
 paginate: 4
-per_page: 6
+per_page: 4
 paginate_path: "/blog/page/:num/"
 
 # minify
